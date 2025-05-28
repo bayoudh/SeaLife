@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Footer from '@/components/Customer/Footer'
 const featuredFish = [
   { name: 'Betta Fish', desc: 'Vibrant and unique', src: '/images/betta.jpg' },
   { name: 'Neon Tetras', desc: 'Peaceful community fish', src: '/images/neon.jpg' },
@@ -18,14 +18,14 @@ export default function HomePage() {
   return (
     <div className="bg-white text-gray-800">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-blue-900 text-white py-20">
+      <section className="relative overflow-hidden bg-blue-900 text-white py-12 px-4 max-w-6xl mx-auto rounded-md ">
         <div className="absolute inset-0">
           <Image src="/images/hero.jpg" alt="Underwater scene" layout="fill" objectFit="cover" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Discover the underwater world</h1>
           <p className="mb-6 text-lg">Explore a wide variety of aquatic life and products for your aquarium.</p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-semibold">
+          <button className="bg-blue-500 hover:bg-sky-400 text-white px-6 py-3 rounded-md font-semibold">
             Shop Now
           </button>
         </div>
@@ -62,18 +62,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-100 py-6 mt-10 text-sm text-center text-gray-600">
-        <div className="flex flex-wrap justify-center gap-4 mb-2">
-          <a href="#" className="hover:underline">About Us</a>
-          <a href="#" className="hover:underline">Contact</a>
-          <a href="#" className="hover:underline">FAQ</a>
-          <a href="#" className="hover:underline">Terms of Service</a>
-          <a href="#" className="hover:underline">Privacy Policy</a>
-        </div>
-        <p>&copy;2024 AquaLife. All rights reserved.</p>
-      </footer>
+          <Footer/>
+     
     </div>
   );
 }
