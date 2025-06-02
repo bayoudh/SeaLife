@@ -49,7 +49,7 @@ export default function Navbar() {
 
         {/* Right: Buttons */}
         <div className="flex items-center space-x-3 font-semibold">
-          <button className="bg-sky-500 hover:bg-deepsky  text-white px-8 py-2 rounded-md text-sm ">
+          <button className="bg-sky-950 hover:bg-deepsky  text-white px-8 py-2 rounded-md text-sm ">
             Sell
           </button>
           <button className="border border-none hover:bg-deepsky hover:text-white text-gray-800 px-4 py-2 rounded-md text-sm ">

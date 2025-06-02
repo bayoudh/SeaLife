@@ -15,16 +15,16 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'AquaFishLife | Sustainable Aquatic Living',
-  description: 'Discover AquaFishLife – promoting sustainable fish farming, aquatic care, and ocean-friendly lifestyles.',
-  keywords: ['AquaFishLife', 'aquaculture', 'sustainable fish farming', 'aquatic life', 'eco fish care', 'marine sustainability', 'fish tanks', 'freshwater fish', 'saltwater fish', 'aquarium products'],
-  authors: [{ name: 'AquaFishLife Team' }],
-  creator: 'AquaFishLife',
+  title: 'SeaLife | Sustainable Aquatic Living',
+  description: 'Discover SeaLife – promoting sustainable fish farming, aquatic care, and ocean-friendly lifestyles.',
+  keywords: ['SeaLife', 'aquaculture', 'sustainable fish farming', 'aquatic life', 'eco fish care', 'marine sustainability', 'fish tanks', 'freshwater fish', 'saltwater fish', 'aquarium products'],
+  authors: [{ name: 'SeaLife Team' }],
+  creator: 'SeaLife',
   openGraph: {
-    title: 'AquaFishLife | Sustainable Aquatic Living',
-    description: 'Explore eco-conscious fish care and aquatic living with AquaFishLife.',
+    title: 'SeaLife | Sustainable Aquatic Living',
+    description: 'Explore eco-conscious fish care and aquatic living with SeaLife.',
     //url: 'https://your-domain.com',
-    siteName: 'AquaFishLife',
+    siteName: 'SeaLife',
     locale: 'en_US',
     type: 'website',
   },

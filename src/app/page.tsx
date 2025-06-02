@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Discover the underwater world</h1>
           <p className="mb-6 text-lg">Explore a wide variety of aquatic life and products for your aquarium.</p>
-          <button className="bg-blue-500 hover:bg-sky-400 text-white px-6 py-3 rounded-md font-semibold">
+          <button className="bg-sky-950 hover:bg-sky-400 text-white px-6 py-3 rounded-md font-semibold">
             Shop Now
           </button>
         </div>

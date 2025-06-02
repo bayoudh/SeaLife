@@ -1,6 +1,6 @@
-# aquafishlife
+# SeaLife
 🌊 Discover the underwater world — An elegant e-commerce platform for aquatic life, aquarium supplies, and a vibrant fishkeeping community.
-AquaFishLife is a modern and beautifully designed e-commerce web application built with Next.js, TypeScript, and Tailwind CSS. It offers an immersive experience for aquarium enthusiasts, allowing users to browse aquatic species, shop for products, and connect with a growing fishkeeping community.
+SeaLife is a modern and beautifully designed e-commerce web application built with Next.js, TypeScript, and Tailwind CSS. It offers an immersive experience for aquarium enthusiasts, allowing users to browse aquatic species, shop for products, and connect with a growing fishkeeping community.
 
 ## 🚀 Features
 
