@@ -1,5 +1,6 @@
-import Footer from "@/components/Customer/Footer";
+
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -36,7 +37,7 @@ export default function AboutPage() {
           className="rounded-lg shadow-md"
         />
         <div>
-          <h2 className="text-2xl font-semibold text-[#1D3557] mb-4">What Sets Us Apart</h2>
+          <h2 className="text-2xl font-semibold text-sky-950 mb-4">What Sets Us Apart</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>Smart aquariums with automated monitoring & maintenance</li>
             <li>Eco-friendly systems & responsibly sourced aquatic life</li>
@@ -47,18 +48,18 @@ export default function AboutPage() {
       </section>
 
       <section className="text-center">
-        <h2 className="text-2xl font-semibold text-[#1D3557] mb-4">Join the SeaLife Community</h2>
+        <h2 className="text-2xl font-semibold text-sky-950 mb-4">Join the SeaLife Community</h2>
         <p className="text-gray-700 mb-6">
           Whether you're enhancing your home, office, or business, SeaLife offers a world of wonder beneath the surface. Discover how our innovation brings your underwater vision to life.
         </p>
-        <a
+        <Link
           href="/contact"
-          className="inline-block bg-[#4FC3F7] text-white px-6 py-3 rounded-full hover:bg-[#1D3557] transition"
+          className="inline-block bg-deepsky text-white px-6 py-3 rounded-full hover:bg-sky-950 transition"
         >
           Get in Touch
-        </a>
+        </Link>
       </section>
-        <Footer/>
+        
     </main>
   
   );

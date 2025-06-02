@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        deepsky: '#2ac6ce',
+        deepsky: '#0F94B7',
       },
     },
   },

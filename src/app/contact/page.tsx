@@ -1,21 +1,21 @@
-import Footer from "@/components/Customer/Footer";
+
 
 export default function ContactPage() {
   return (
     <div className="bg-white text-gray-800">
       {/* Featured Fish */}
       <section className="py-12 px-4 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
+        <h1 className="text-3xl font-bold mb-6 text-sky-950">Contact Us</h1>
         <p className="text-gray-600 mb-8">
           We’d love to hear from you! Please fill out the form below and we’ll
           get in touch soon.
         </p>
 
-        <form className="space-y-6">
+        <form className="space-y-6 ">
           <div>
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-gray-700"
+              className="block  font-medium text-gray-700"
             >
               Name
             </label>
@@ -24,14 +24,14 @@ export default function ContactPage() {
               id="name"
               name="name"
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 p-2 block w-full rounded-md border-sky-950 shadow-sm focus:ring-deepsky focus:border-deepsky"
             />
           </div>
 
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
+              className="block  font-medium text-gray-700"
             >
               Email
             </label>
@@ -40,14 +40,14 @@ export default function ContactPage() {
               id="email"
               name="email"
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 p-2 block w-full rounded-md border-sky-950 shadow-sm focus:ring-deepsky focus:border-deepsky"
             />
           </div>
 
           <div>
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-gray-700"
+              className="block font-medium text-gray-700"
             >
               Message
             </label>
@@ -56,13 +56,13 @@ export default function ContactPage() {
               name="message"
               rows={5}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 p-2 block w-full rounded-mdborder-sky-950 shadow-sm focus:ring-deepsky focus:border-deepsky"
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="bg-sky-950 text-white py-2 px-4 rounded-md hover:bg-deepsky transition"
+            className="bg-sky-950 text-white py-2 w-full rounded-md hover:bg-deepsky transition"
           >
             Send Message
           </button>
@@ -86,7 +86,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
