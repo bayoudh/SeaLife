@@ -13,9 +13,9 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center gap-4 mb-2">
           <Link href="about" className="hover:underline">About Us</Link>
           <Link href="contact" className="hover:underline">Contact</Link>
-          <a href="#" className="hover:underline">FAQ</a>
-          <a href="#" className="hover:underline">Terms of Service</a>
-          <a href="#" className="hover:underline">Privacy Policy</a>
+          <Link href="faq" className="hover:underline">FAQ</Link>
+          <Link href="terms" className="hover:underline">Terms of Service</Link>
+          <Link href="privacy" className="hover:underline">Privacy Policy</Link>
         </div>
         <p>&copy;2025 SeaLife. All rights reserved.</p>
       </footer>

@@ -76,32 +76,33 @@ const navLinks = [
         </div>
       </div>
     </nav>
-     <nav className="w-full bg-white shadow-sm border-b">
-      <ul className="flex space-x-6 p-4 items-center">
-        {navLinks.map((cat) => (
-          <li key={cat.title} className="relative group">
-            <Link href={cat.href} className="hover:text-blue-600">
-              {cat.title}
-            </Link>
+   <nav className="w-full bg-white shadow-sm border-b flex justify-center">
+  <ul className="flex space-x-6 p-4 relative z-10">
+    {navLinks.map((cat) => (
+      <li key={cat.title} className="relative group">
+        <Link href={cat.href} className="hover:text-blue-600">
+          {cat.title}
+        </Link>
 
-            {cat.subcategories?.length > 0 && (
-              <ul className="absolute left-0 mt-2 hidden group-hover:block bg-white border rounded shadow">
-                {cat.subcategories.map((sub) => (
-                  <li key={sub.title}>
-                    <Link
-                      href={sub.href}
-                      className="block px-4 py-2 hover:bg-gray-100"
-                    >
-                      {sub.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
-      </ul>
-    </nav>
+        {cat.subcategories?.length > 0 && (
+          <ul className="absolute left-0 top-full mt-1 w-48 bg-white border rounded-md shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-all duration-200">
+            {cat.subcategories.map((sub) => (
+              <li key={sub.title}>
+                <Link
+                  href={sub.href}
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  {sub.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
+      </li>
+    ))}
+  </ul>
+</nav>
+
     </>  
 );
 }
