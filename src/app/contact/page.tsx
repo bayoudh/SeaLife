@@ -59,13 +59,14 @@ export default function ContactPage() {
               className="mt-1 p-2 block w-full rounded-mdborder-sky-950 shadow-sm focus:ring-deepsky focus:border-deepsky"
             ></textarea>
           </div>
-
+          <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-sky-950 text-white py-2 w-full rounded-md hover:bg-deepsky transition"
-          >
+            className="inline-block bg-deepsky text-white px-6 py-3 rounded-full hover:bg-sky-950 transition"
+            >
             Send Message
           </button>
+          </div>
         </form>
       </section>
 
