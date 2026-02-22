@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">5. Your Rights</h2>
         <p className="text-gray-700">
-          You have the right to access, update, or delete your personal information. Contact us if you'd like to exercise these rights.
+          You have the right to access, update, or delete your personal information. Contact us if you&apos;d like to exercise these rights.
         </p>
       </section>
 

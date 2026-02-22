@@ -50,7 +50,7 @@ export default function AboutPage() {
       <section className="text-center">
         <h2 className="text-2xl font-semibold text-sky-950 mb-4">Join the SeaLife Community</h2>
         <p className="text-gray-700 mb-6">
-          Whether you're enhancing your home, office, or business, SeaLife offers a world of wonder beneath the surface. Discover how our innovation brings your underwater vision to life.
+          Whether you&apos;re enhancing your home, office, or business, SeaLife offers a world of wonder beneath the surface. Discover how our innovation brings your underwater vision to life.
         </p>
         <Link
           href="/contact"

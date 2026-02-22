@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 import { Search } from "lucide-react";
 import Image from "next/image";
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  
 const navLinks = [
   {
     title: 'Electronics',
@@ -48,8 +47,7 @@ const navLinks = [
           <div className="hidden md:flex space-x-4 text-sm text-gray-700 font-semibold">
             <Link href="/" className="hover:text-deepsky ">Home</Link>
             <Link href="/shop" className="hover:text-deepsky ">Shop</Link>
-            <Link href="/community" className="hover:text-deepsky ">Community</Link>
-            <Link href="/learn" className="hover:text-deepsky ">Learn</Link>
+            <Link href="/information" className="hover:text-deepsky ">Information</Link>
           </div>
         </div>
 

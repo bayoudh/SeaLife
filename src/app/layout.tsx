@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  themeColor: '#00BFFF',
+  //themeColor: '#00BFFF',
   //metadataBase: new URL('https://your-domain.com'),
 };
 
